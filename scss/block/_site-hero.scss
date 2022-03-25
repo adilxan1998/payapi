@@ -1,0 +1,136 @@
+.site-hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-hero__title {
+  max-width: 546px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 72px;
+  color: #36536b;
+}
+
+.site-hero__form {
+  position: relative;
+  max-width: 520px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 50px;
+}
+
+.siet-hero__input {
+  padding-right: 300px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  color: #36536b;
+  mix-blend-mode: normal;
+}
+
+.siet-hero__input::placeholder {
+  color: #000;
+  opacity: 0.3;
+}
+
+.form-button {
+  position: absolute;
+  left: 340px;
+}
+
+.site-hero__text {
+  margin-left: 35px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6c8294;
+}
+
+.site-hero__span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6c8294;
+}
+
+@include breakpoint-down(1027px) {
+  body {
+    background-position: calc(50%) calc(50% - 590px);
+    background-size: 948px 948px;
+  }
+
+  .site-hero__inner {
+    flex-direction: column-reverse;
+  }
+
+  .site-hero__box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .site-hero__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+@include breakpoint-down(320px) {
+  body {
+    background-position: calc(50%) calc(50% - 440px);
+    background-size: 780px 780px;
+  }
+}
+
+@include breakpoint-down(651px) {
+  .form-button {
+    width: 393px;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+  }
+  .site-hero__text {
+    margin-top: 76px;
+  }
+  .site-hero__form {
+    max-width: 395px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .siet-hero__input {
+    padding-right: 168px;
+    padding-left: 30px;
+  }
+}
+
+@include breakpoint-down(410px) {
+  .site-hero__img {
+    margin-left: 100px;
+  }
+
+  .site-hero__title {
+    font-size: 42px;
+    margin-left: 50px;
+  }
+
+  .site-hero__form {
+    margin-left: 50px;
+  }
+
+  .siet-hero__input {
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-button {
+    width: 330px;
+  }
+}

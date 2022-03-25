@@ -1,0 +1,39 @@
+.simple {
+  padding: 50px 0;
+  background-image: url(../img/bc-img.png);
+  background-repeat: no-repeat;
+  background-size: 780px 780px;
+  background-position: calc(50% + 700px) calc(50%);
+}
+
+.simple__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.simple__title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+
+.simple__text {
+  width: 445px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+
+.simple__img-box {
+  display: flex;
+}
+
+.simple__img {
+  margin-right: -80px;
+}

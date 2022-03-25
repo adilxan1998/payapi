@@ -1,0 +1,20 @@
+.navbar-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-link {
+  margin-left: 40px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  color: #36536b;
+}
+
+.navbar-link:active {
+  color: #36536b;
+  opacity: 1;
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/public-sans-v11-latin-regular.woff2") format("woff2"),
+    url("../fonts/public-sans-v11-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/public-sans-v11-latin-700.woff2") format("woff2"),
+    url("../fonts/public-sans-v11-latin-700.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Public Sans";
+  background: #edf3f8;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

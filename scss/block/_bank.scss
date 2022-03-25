@@ -1,0 +1,65 @@
+.bank__list {
+  width: 1110px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.bank__item {
+  width: 350px;
+  text-align: center;
+}
+
+.bank__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.138462px;
+  color: #36536b;
+}
+
+.bank__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #6c8294;
+}
+
+.bank__box {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bank__box-title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+
+@include breakpoint-down(1027px) {
+  .easy__inner {
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .easy__img {
+    margin-left: 5px;
+  }
+}
+
+@include breakpoint-down(692px) {
+  .easy__box {
+    text-align: center;
+    max-width: 350px;
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  margin-top: 50px;
+}
+
+.header__header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__box {
+  display: flex;
+}
+
+.header__btn {
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+@include breakpoint-down(660px) {
+  .navbar {
+    display: none;
+  }
+
+  .btn-res {
+    display: none;
+  }
+
+  .header__btn {
+    display: block;
+  }
+}
